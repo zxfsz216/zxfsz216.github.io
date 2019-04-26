@@ -22,10 +22,7 @@ $(document).ready(function(e) {
 	$("#js_tips span").hover(function(){
 		var index = $(this).index();
 		$(this).addClass("focus").siblings().removeClass("focus");
-		
-		
 		$("#js_wrap_case").children().eq(index).addClass("focus").siblings().removeClass("focus");
-		
 		var index = $(this).index();
 		$("#js_wrap_case").css({
 			"left": -index*1000
@@ -87,7 +84,6 @@ var common = {
 		
 		var top = 0;
 		var left = 0;
-		
 		//根据浏览器宽高来设定指定容器针对浏览器视图进行居中
 		if(screenW < paraW){
 			left = 0;
@@ -109,8 +105,6 @@ var common = {
 	}
 	
 }
-
-
 var xlc = {
 	/**鼠标移入背景滑动
 		文档格式
