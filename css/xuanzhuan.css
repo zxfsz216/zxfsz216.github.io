@@ -1,7 +1,7 @@
 .xuanzhuan{
     width: 200px;
     height: 400px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 100px;
     perspective:30000px;
 }
