@@ -111,26 +111,13 @@ transition:all 0.3s;
 -ms-transition:all 0.3s;
 -o-transition:all 0.3s;
 }
-
-/*浮动*/
 .f_left{float:left;}
 .f_right{float:right;}
-
-/*强制换行*/
 .break_word{word-wrap:break-word;word-break:break-all;}
-/*文字强制不断行*/
 .hehe{white-space:nowrap;}
-
-/*禁止换行*/
 .keep_all{word-break:keep-all;white-space:nowrap;}
-
-/*超出省略号，仅限单行，并且需要设定一个宽度*/
 .ellipsis { overflow: hidden; text-overflow: ellipsis; display: block; white-space: nowrap }
-
-/*段落两端对齐*/
 .case_intro , .txt_justify{text-align:justify;text-justify:inter-ideograph}
-
-/*两端对齐 若单行，至少要3个字符，只有两个字符的，中间补一个空格*/
 .text_justify {
 	text-align: justify; text-justify: distribute-all-lines;/*ie6-8*/ 
 	text-align-last: justify;/* ie9*/ 
@@ -518,35 +505,7 @@ transform: scale(1.6);
 -ms-transform: scale(1.6);
 }
 
-/*约*/
-.img_bg2{background-image:url(../image/bg_yue.png);background-repeat:no-repeat;}
-.title_yue{width:684px;height:46px;}
-.yue_info{height:80px;border-radius:100px;width:560px;display:inline-block;padding:0 10px;background-color:#29bbe3;color:#fff;line-height:80px;margin-top:20px;opacity:0;}
-.yue_info i{background-image:url(../image/bg_yue.png);background-repeat:no-repeat;display:inline-block;height:100%;font-size:30px;font-style:normal;font-family:Georgia, "Times New Roman", Times, serif;}
-.yue_1 i{background-position:0px -122px;padding-left:65px;}
-.yue_2 i{background-position:-62px -53px;padding-left:94px;}
-.yue_3 i{background-position:-612px -120px;padding-left:76px;}
-.yue_1 {
-transform: translate(0px,400px);
--moz-transform: translate(0px,400px);
--webkit-transform: translate(0px,400px);
--o-transform: translate(0px,400px);
--ms-transform: translate(0px,400px);
-}
-.yue_2 {
-transform: translate(0px,800px);
--moz-transform: translate(0px,800px);
--webkit-transform: translate(0px,800px);
--o-transform: translate(0px,800px);
--ms-transform: translate(0px,800px);
-}
-.yue_3 {
-transform: translate(0px,1200px);
--moz-transform: translate(0px,1200px);
--webkit-transform: translate(0px,1200px);
--o-transform: translate(0px,1200px);
--ms-transform: translate(0px,1200px);
-}
+
 
 .focus .container_case,
 .focus .jingli ,
@@ -655,6 +614,14 @@ transform: translate(0px,0px);
               font-size:25px;
               color: white;
 
+            }
+            .mw2{
+                       display: inline-block;
+                       width: 700px;
+                       height: 400px;
+                       /* border: 1px solid red; */
+                       color: white;
+                       font-size: 35px;
             }
 
 .container {
